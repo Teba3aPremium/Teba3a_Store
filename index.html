@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101110">
+  <meta name="description" content="Thoughtful mugs and memorable gifts from Teba3a Store.">
+  <title>Teba3a Store | Gifts Made Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little something special, made just for you <span>✦</span></div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#home" aria-label="Teba3a Store home">
+      <span class="brand-icon"><i class="fa-solid fa-mug-hot"></i></span>
+      <span class="brand-name">Teba3a <b>Store</b><small>GIFTS WITH PERSONALITY</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#shop">Shop</a>
+      <a class="nav-link" href="#about">About us</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-button" href="#shop">Explore collection <i class="fa-solid fa-arrow-right"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="glow glow-one"></div><div class="glow glow-two"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> SMALL GIFTS. BIG FEELINGS.</p>
+        <h1>Make every day<br>feel <em>a little more</em><br>special.</h1>
+        <p class="hero-description">Thoughtful mugs and memorable gifts, picked to make someone smile — including you.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#shop">Shop the collection <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a class="button quiet" href="#about">Our story <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+        <div class="hero-note"><span class="note-icon"><i class="fa-solid fa-heart"></i></span><span><strong>Made for your moments</strong><small>Gifts that feel personal</small></span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <!-- CHANGE THIS PATH to your main/hero product image -->
+          <img src="image/hero.jpg" alt="Featured Teba3a Store product" onerror="this.style.display='none';this.parentElement.classList.add('fallback');">
+          <div class="hero-fallback"><i class="fa-solid fa-mug-hot"></i><b>Your featured product</b><small>Put your hero photo at image/hero.jpg</small></div>
+          <div class="floating-tag"><i class="fa-solid fa-sparkles"></i><span>Little things<br><b>mean a lot</b></span></div>
+        </div>
+        <div class="hero-caption"><span>THE TEBA3A EDIT</span><span>01 / EVERYDAY JOY</span></div>
+      </div>
+      <a class="scroll-cue" href="#shop"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="benefits" aria-label="What makes us special">
+      <div class="benefit"><span class="benefit-icon"><i class="fa-solid fa-gift"></i></span><div><h3>Gift-worthy finds</h3><p>Little surprises with a big impact.</p></div></div>
+      <div class="benefit"><span class="benefit-icon"><i class="fa-regular fa-face-smile"></i></span><div><h3>Made to make you smile</h3><p>Thoughtful picks for every mood.</p></div></div>
+      <div class="benefit"><span class="benefit-icon"><i class="fa-solid fa-heart"></i></span><div><h3>Picked with care</h3><p>Details that make a gift feel special.</p></div></div>
+    </section>
+
+    <section class="shop section-pad" id="shop">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span></span> FIND YOUR FAVOURITE</p><h2>A collection of <em>good things.</em></h2></div>
+        <p class="section-intro">From everyday essentials to gifts worth keeping, find something that feels just right.</p>
+      </div>
+      <div class="shop-toolbar reveal"><span class="product-count">OUR COLLECTION <b>12 PIECES</b></span><span class="toolbar-note"><i class="fa-solid fa-hand-sparkles"></i> Your next favourite is waiting</span></div>
+
+      <!--
+        PRODUCT EDITING:
+        1) Replace image/product-01.jpg with your image path.
+        2) Replace Product Name One, category, description and EGP —.
+        3) Copy the same pattern for all 12 cards.
+      -->
+      <div class="product-grid">
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/normal.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">CLASSIC MUG</p><h3>Normal Mug</h3><p class="description">A classic white mug perfect for custom printing, personal designs, and everyday use.</p><div class="product-bottom"><span class="price">EGP 170</span><a class="product-link" href="#contact" aria-label="Ask about product 1"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/glass.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 2"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">GLASS MUG</p><h3>Transparent Glass Mug</h3><p class="description">A classic white mug perfect for custom printing, personal designs, and everyday use.</p><div class="product-bottom"><span class="price">EGP 190</span><a class="product-link" href="#contact" aria-label="Ask about product 2"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/magik.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 3"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">MAGIC MUG</p><h3>Magic Color-Changing Mug</h3><p class="description">A magical mug that reveals its design when filled with a hot drink, making every sip special.</p><div class="product-bottom"><span class="price">EGP 210</span><a class="product-link" href="#contact" aria-label="Ask about product 3"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/digetal.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">THERMAL BOTTLE</p><h3>Digital Thermal Water Bottle</h3><p class="description">A modern thermal water bottle with a digital temperature display, perfect for everyday hydration on the go.</p><div class="product-bottom"><span class="price">EGP حسب الطلب</span><a class="product-link" href="#contact" aria-label="Ask about product 4"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/Designer 9.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">SPOON MUG</p><h3>Colored Interior Mug with Spoon</h3><p class="description">A stylish mug with a colorful interior and a matching spoon, ideal for coffee lovers and unique gifts.</p><div class="product-bottom"><span class="price">EGP 210</span><a class="product-link" href="#contact" aria-label="Ask about product 5"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/colored.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 6"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">COLOR MUG</p><h3>Colored Interior Mug</h3><p class="description">A classic white mug with a colorful interior, adding a fun touch to your favorite drinks.</p><div class="product-bottom"><span class="price">EGP 190</span><a class="product-link" href="#contact" aria-label="Ask about product 6"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/fostared.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 7"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">FROSTED MUG</p><h3>Frosted Glass Mug</h3><p class="description">A modern frosted glass mug with an elegant translucent finish, perfect for stylish everyday use.</p><div class="product-bottom"><span class="price">EGP 190</span><a class="product-link" href="#contact" aria-label="Ask about product 7"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/bottel.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 8"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">SCHOOL ESSENTIALS</p><h3>School Water Bottle</h3><p class="description">A practical water bottle for school, designed to keep you hydrated throughout the day.</p><div class="product-bottom"><span class="price">EGP 200</span><a class="product-link" href="#contact" aria-label="Ask about product 8"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/hot.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 9"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">Thermal Mug</p><h3>THERMAL MUG</h3><p class="description">A stylish thermal mug designed to keep your favorite drinks at the right temperature, perfect for everyday use at home, work, or on the go.</p><div class="product-bottom"><span class="price">EGP 400</span><a class="product-link" href="#contact" aria-label="Ask about product 9"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/small.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 10"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">GIFT BOX</p><h3>Football Fan Gift Box</h3><p class="description">The perfect gift for football fans, featuring a stylish mug and a football jersey in one special box.</p><div class="product-bottom"><span class="price">EGP 365</span><a class="product-link" href="#contact" aria-label="Ask about product 10"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/big.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">PREMIUM GIFT BOX</p><h3>Premium Football Gift Box</h3><p class="description">A premium gift box featuring a mug, a football jersey, delicious chocolate, and body splash for an unforgettable gift.</p><div class="product-bottom"><span class="price">EGP 450</span><a class="product-link" href="#contact" aria-label="Ask about product 11"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+        <article class="product-card reveal"><div class="product-image"><span class="product-number"></span><img src="img/images.png" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-placeholder"><i class="fa-regular fa-image"></i><small></small></span><a class="quick-view" href="#contact" aria-label="Ask about product 12"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="product-info"><p class="category">FOOTBALL COLLECTION</p><h3>Football Jerseys</h3><p class="description">Show your passion for football with stylish jerseys inspired by your favorite teams.</p><div class="product-bottom"><span class="price">EGP 165</span><a class="product-link" href="#contact" aria-label="Ask about product 12"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
+      </div>
+      <div class="shop-bottom reveal"><p>Found something you love?</p><a href="#contact" class="text-link">Ask us about an item <i class="fa-solid fa-arrow-right"></i></a></div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="about-art reveal"><div class="about-art-inner"><span class="about-star">✳</span><i class="fa-solid fa-mug-hot"></i><p>A LITTLE JOY<br>IN EVERY DETAIL</p></div><span class="about-stamp">TEBA3A STORE · GIFTS WITH PERSONALITY</span></div>
+      <div class="about-copy reveal">
+        <p class="eyebrow"><span></span> A LITTLE ABOUT US</p>
+        <h2>It's not just a gift.<br>It's <em>how you make<br>someone feel.</em></h2>
+        <p class="about-lead">Welcome to Teba3a Store — where everyday things become little reminders of the people and moments that matter.</p>
+        <p class="about-body">We believe the best gifts don't have to be complicated. They just need a little thought, a touch of personality, and a reason to make someone smile. That's why we're building a collection of mugs and gifts that feel fun, meaningful, and worth sharing.</p>
+        <p class="about-body">Whether you're celebrating someone special or treating yourself, we're here to help you find that just-right something.</p>
+        <a class="button primary" href="#contact">Let's find your gift <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="signature">Made with care <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="quote-band"><span class="quote-mark">“</span><p>The smallest things can hold the biggest memories.</p><span class="quote-line"></span></section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow"><span></span> SAY HELLO</p>
+        <h2>Let's make<br>someone <em>smile.</em></h2>
+        <p>Have a question, an idea, or found something you love? Get in touch — we'd be happy to hear from you.</p>
+        <div class="contact-note"><i class="fa-regular fa-clock"></i><span><strong>We're just a message away.</strong><small>Reach out through your favourite platform.</small></span></div>
+      </div>
+      <div class="social-panel reveal">
+        <p class="social-title">CONNECT WITH US <span>↘</span></p>
+        <!-- Replace the # in each href with your real profile link -->
+        <a class="social-link" href="https://www.tiktok.com/@teba3a.store?_r=1&_t=ZS-98z8hTG2wfk" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><span class="social-icon"><i class="fa-brands fa-tiktok"></i></span><span class="social-text"><small>FOLLOW OUR JOURNEY</small><strong>TikTok</strong></span><i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i></a>
+        <a class="social-link" href="https://www.facebook.com/share/1JziqwgMBH/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="social-text"><small>JOIN OUR COMMUNITY</small><strong>Facebook</strong></span><i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i></a>
+        <a class="social-link" href="https://wa.me/201205899826" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><span class="social-icon"><i class="fa-brands fa-whatsapp"></i></span><span class="social-text"><small>ASK US ANYTHING</small><strong>WhatsApp</strong></span><i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i></a>
+        <a class="social-link" href="https://www.instagram.com/teba3a_store11?igsh=MW44YXhlZGpkdzdkdw==&igsi=MW44YXhlZGpkdzdkdw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span class="social-icon"><i class="fa-brands fa-instagram"></i></span><span class="social-text"><small>SEE WHAT'S NEW</small><strong>Instagram</strong></span><i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-icon"><i class="fa-solid fa-mug-hot"></i></span><span class="brand-name">Teba3a <b>Store</b><small>GIFTS WITH PERSONALITY</small></span></a>
+    <p>Thoughtful gifts. Happier moments.</p>
+    <a class="back-top" href="#top">BACK TO TOP <i class="fa-solid fa-arrow-up"></i></a>
+    <div class="footer-bottom"><span>© <span id="year"></span> Teba3a Store. All rights reserved.</span><span>MADE WITH <i class="fa-solid fa-heart"></i> FOR THE LITTLE MOMENTS</span></div>
+  </footer>
+</body>
+</html>
